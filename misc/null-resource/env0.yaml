@@ -2,6 +2,6 @@ version: 1
 
 destroy:
   steps:
-    setupVariables:
+    terraformPlan:
       before:
         - exit 1
