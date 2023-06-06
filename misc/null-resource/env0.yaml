@@ -1,0 +1,7 @@
+version: 1
+
+destroy:
+  steps:
+    setupVariables:
+      before:
+        - exit 1
